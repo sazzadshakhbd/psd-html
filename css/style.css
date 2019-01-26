@@ -1,0 +1,479 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: 
+  Support: admin@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. header
+3. slider
+4. about-area
+5. features-box
+6. department
+7. team
+8. video-area
+9. counter
+10. footer 
+*/
+
+
+
+/* 1. Theme default css */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Work+Sans:300,400,500,600,700,800');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.img {
+    max-width: 100%;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+    color: #2B96CC;
+    text-decoration: none;
+}
+
+a,
+button {
+    color: #1696e7;
+    outline: medium none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    color: #313131;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #7e7e7e;
+    margin-bottom: 15px;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    color: #7e7e7e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+*::placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 20px 45px;
+    font-size: 12px;
+    line-height: 1.1;
+    border-radius: 0;
+    transition: 0.3s;
+    font-family: poppins;
+    background: #2f3440;
+    color: #fff;
+    text-transform: uppercase;
+}
+}
+
+
+
+
+
+
+
+
+
+.header-top-area {
+    border-bottom: 1px solid #fbba42;
+}
+
+.language ul li {
+    position: relative;
+}
+
+.language ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #646464;
+    display: inline-block;
+    padding: 18px 0;
+}
+
+.language ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 110px;
+    transition: all 0.3s ease 0s;
+    background: #222;
+    opacity: 0;
+    visibility: hidden;
+    padding: 7px 0;
+    z-index: 9;
+}
+
+.language ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.language ul li ul li a {
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px;
+    color: #ddd;
+}
+
+.language ul li:hover > a {
+    color: #fbba42;
+}
+
+.social-icon {
+    padding-left: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.social-icon:before {
+    content: '';
+    position: absolute;
+    background: #efefef;
+    width: 1px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+.social-icon > a {
+    color: #646464;
+    font-size: 14px;
+    margin-right: 22px;
+}
+
+.social-icon > a:hover {
+    color: #fbba42;
+}
+
+.header-right li {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+}
+
+.serch-form {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    opacity: 0;
+    z-index: 9;
+    transition: 0.3s;
+    visibility: hidden;
+    background: #222;
+
+}
+
+.header-right li:hover .serch-form {
+    visibility: visible;
+    opacity: 1;
+}
+
+.serch-form input {
+    background: none;
+    border: 0;
+    color: #fff;
+    height: 45px;;
+    padding: 0 15px;
+    width: 100%;
+    outline: none;
+}
+
+.serch-form form {
+    position: relative;
+}
+
+.serch-form button {
+    background: none;
+    border: 0;
+    color: #fff;
+    line-height: 45px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    width: 48px;
+    top: 0;
+    outline: none;
+}
+
+.serch-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.serch-form input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.serch-form input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.serch-form input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+.header-right li a {
+    font-size: 16px;
+    color: #646464;
+}
+
+/* ===== Header Bottom CSS ==== */
+.header-button {
+    margin-top: 31px;
+    margin-left: 40px;
+}
+
+.header-button a {
+    color: #3b3f42;
+    border-radius: 30px;
+    border: 2px solid #3b3f42;
+    padding: 14px 35px;
+    font-weight: 500;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.header-button > a:hover {
+    background: #fbba42;
+    color: #222;
+    border-color: #fbba42;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+}
+
+.main-menu ul li a {
+    font-size: 14px;
+    color: #3b3f42;
+    padding: 48px 0;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.main-menu ul li:hover > a {
+    color: #fbba42;
+}
+
+.main-menu ul li ul.submenu {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background: #222;
+    width: 250px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+}
+.main-menu ul li:hover ul.submenu {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+
+.main-menu ul li ul.submenu li {
+    display: block;
+    margin:0;
+    border-bottom: 1px solid #9c9c9c;
+}
+
+.main-menu ul li ul.submenu li:last-child {
+    border-bottom: none;
+}
+
+.main-menu ul li ul.submenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+}
+.main-menu ul li ul.submenu li:hover > a {
+    color: #fbba42;
+}
+.main-menu ul li ul.submenu li ul.submenu {
+    left:100%;
+    top:0;
+}
+
+/* ===== slider-area CSS ==== */
+.single-slider.slider-height {
+    min-height: 850px;
+}
+.slider-content span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    color:#333;
+}
+.slider-content h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #333;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+.slider-content p {
+    font-size: 17px;
+    color: #414149;
+    padding-right: 120px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.slider-content a {
+    
+}
+.slider-content a:hover {
+    
+}

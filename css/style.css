@@ -623,3 +623,25 @@ label {
     background: #fbba42;
     color: #3b3f42;
 }
+/* ===== section-title CSS ==== */
+.section-title > h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+/* ===== counter-area CSS ==== */
+.single-counter > span {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.single-counter > p {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #333;
+    margin: 0;
+}

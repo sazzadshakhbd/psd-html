@@ -33,15 +33,16 @@
                 slidesToScroll: 1
               }
             }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
-				
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
     
     
-  var grid =  $('.grid').isotope({
+    
+    // Portfolio active
+    var grid =  $('.grid').isotope({
       itemSelector: '.grid-item',
       percentPosition: true,
       masonry: {
@@ -50,17 +51,36 @@
       }
     })
     
-  // filter items on button click
+    
     $('.portfolio-menu').on( 'click', 'button', function() {
       var filterValue = $(this).attr('data-filter');
       grid.isotope({ filter: filterValue });
     });
     
-    //for menu active class
+    
+    //for portfolio menu active class
     $('.portfolio-menu button').on('click', function(event) {
         $(this).siblings('.active').removeClass('active');
         $(this).addClass('active');
         event.preventDefault();
+    });
+    
+    
+    
+    
+    
+    // magnificPopup
+    $('.popup-img').magnificPopup({
+      type: 'image',
+      gallery: {
+          enabled: true
+        }
+    });
+    
+    // counterUpjs
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
     });
     
     

@@ -146,9 +146,9 @@ li {
 }
 
 p {
-    font-size: 14px;
+    font-size: 17px;
     font-weight: normal;
-    line-height: 24px;
+    line-height: 30px;
     color: #7e7e7e;
     margin-bottom: 15px;
 }
@@ -767,4 +767,73 @@ label {
     
     color: #777;
     font-size: 14px;
+}
+/* ===== footer ==== */
+
+.brand-border{
+    border-bottom: 1px solid #fbba42;
+}
+.footer-widget h3 {
+    font-size: 28px;
+    color: #3b3f42;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer-info li {
+    font-size: 17px;
+    line-height: 36px;
+    color: #777;
+}
+.footer-link li {
+    width: 50%;
+    float: left;
+}
+.footer-link li a{
+    position: relative;
+    font-size: 17px;
+    line-height: 36px;
+    color: #777;
+    display: inline-block;
+    padding-left: 20px;
+}
+.footer-link li a::before{
+    content: "\f0da";
+    font-family: fontawesome;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.footer-widget form {
+    position: relative;
+}
+.footer-widget form input {
+    border: 1px solid #e0e0e0;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+.footer-widget form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    border: none;
+    font-weight: 600;
+    padding: 0 15px;
+    background: #fbba42;
+    color: #3b3f42;
+    text-transform: uppercase;
+}
+.footer-icon a {
+    color: #3b3f42;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 40px;
+}
+.footer-icon a:hover {
+    color: #fbba42;
+}
+.copyright-text p {
+    margin:0;
 }

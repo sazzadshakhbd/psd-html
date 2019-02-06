@@ -142,7 +142,13 @@
         ]
     });
     
-    
+    // show side bar
+    $('.info-bar').click(function(){
+        $('.extra-info').addClass('info-open');
+    });
+    $('.close-icon').click(function(){
+        $('.extra-info').removeClass('info-open');
+    });
     
     // Portfolio active
     var grid =  $('.grid').isotope({

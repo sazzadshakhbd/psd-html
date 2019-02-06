@@ -422,8 +422,9 @@ label {
     opacity: 0;
     visibility: hidden;
     transition: 0.3s;
+    z-index: 9;
 }
-.main-menu ul li:hover ul.submenu {
+.main-menu ul li:hover > ul.submenu {
     visibility: visible;
     opacity: 1;
     top: 100%;
@@ -836,4 +837,58 @@ label {
 }
 .copyright-text p {
     margin:0;
+}
+
+
+.close-icon {
+    text-align: right;
+    margin-top: -16px;
+}
+.close-icon button {
+    padding: 0;
+    background: none;
+    border: 0;
+    font-size: 20px;
+    color: #fbba42;
+    cursor: pointer;
+}
+.extra-info {
+    width: 400px;
+    position: fixed;
+    right: -100%;
+    background: #222;
+    color: #fff;
+    padding: 30px;
+    height: 100%;
+    z-index: 88;
+    top: 0;
+    transition: .7s;
+}
+.extra-info p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #ddd;
+}
+.info-open {
+    right:0;
+}
+.instagram {
+    overflow: hidden;
+}
+.instagram a {
+    width:33.33%;
+    float: left;
+}
+.instagram img{
+    width:100%;
+}
+.social-icon-right a {
+    border: 2px solid #ddd;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
 }

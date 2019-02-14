@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/meanmenu.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/default.css">
   <link rel="stylesheet" href="css/style.css">
@@ -33,7 +34,7 @@
       <div class="header-top-area pl-60 pr-60">
           <div class="container-fluid">
               <div class="row">
-                  <div class="col-xl-6 col-lg-6 d-flex align-items-center">
+                  <div class="col-xl-6 col-lg-6 col-md-6 d-flex align-items-center">
                       <div class="language f-left">
                           <ul>
                             <li>
@@ -55,7 +56,7 @@
                           <a href="#"><i class="fab fa-instagram"></i></a>
                       </div>
                   </div>
-                  <div class="col-xl-6 col-lg-6 d-flex justify-content-end align-items-center">
+                  <div class="col-xl-6 col-lg-6 col-md-6 d-flex justify-content-end align-items-center">
                       <div class="header-right">
                           <ul>
                               <li>
@@ -104,11 +105,11 @@
                       </div>
                   </div>
                   <div class="col-xl-9 col-lg-9">
-                     <div class="header-button f-right">
+                     <div class="header-button f-right d-none d-lg-block">
                         <a href="#">Get a quote</a>
                      </div>
-                      <div class="main-menu f-right">
-                          <nav>
+                      <div class="main-menu f-right ">
+                          <nav id="mobile-menu">
                               <ul>
                                   <li>
                                       <a href="">Home</a>
@@ -120,12 +121,6 @@
                                                   <li><a href="">Home Style-1.1</a></li>
                                                   <li>
                                                       <a href="">Home Style-2.1</a>
-                                                      <ul class="submenu">
-                                                          <li><a href="">Home Style-1.1.1</a></li>
-                                                          <li><a href="">Home Style-2.1.1</a></li>
-                                                          <li><a href="">Home Style-3.1.1</a></li>
-                                                          <li><a href="">Home Style-4.1.1</a></li>
-                                                      </ul>
                                                   </li>
                                                   <li><a href="">Home Style-3.1</a></li>
                                                   <li><a href="">Home Style-4.1</a></li>
@@ -144,6 +139,7 @@
                               </ul>
                           </nav>
                       </div>
+                      <div class="mobile-menu"></div>
                   </div>
               </div>
           </div>
@@ -166,7 +162,7 @@
                                   <a class="btn" href="">purchase  theme</a>
                               </div>
                           </div>
-                          <div class="col-xl-6 col-lg-5">
+                          <div class="col-xl-6 col-lg-5 d-none d-lg-block">
                               <div class="slide-img">
                                   <img src="img/slider/transparent-slide.png" alt="">
                               </div>
@@ -185,7 +181,7 @@
                                   <a class="btn" href="">purchase  theme</a>
                               </div>
                           </div>
-                          <div class="col-xl-6 col-lg-5">
+                          <div class="col-xl-6 col-lg-5 d-none d-lg-block">
                               <div class="slide-img">
                                   <img src="img/slider/transparent-slide.png" alt="">
                               </div>
@@ -208,21 +204,21 @@
                  </div>
              </div>
               <div class="row">
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                       <div class="single-features text-center mb-30">
                           <img src="img/icons/features1.png" alt="">
                           <h2>Floors & Roofs</h2>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis fermentumurna vitae.</p>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                       <div class="single-features text-center mb-30">
                           <img src="img/icons/features2.png" alt="">
                           <h2>Rooms & Halls</h2>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis fermentumurna vitae.</p>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4">
+                  <div class="col-xl-4 col-lg-4 col-md-4">
                       <div class="single-features text-center mb-30">
                           <img src="img/icons/features3.png" alt="">
                           <h2>Basements</h2>
@@ -239,7 +235,7 @@
          <div class="promotion-img" style="background-image: url(img/bg/promotion.jpg);"></div>
           <div class="container">
               <div class="row">
-                  <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
+                  <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6 col-md-6 offset-md-6">
                       <div class="promotion-text pb-110 pt-110">
                           <h3>Don’t Wait For <br>
 anything. Buy it today!</h3>
@@ -277,7 +273,7 @@ anything. Buy it today!</h3>
                  </div>
              </div>
               <div class="row grid">
-                  <div class="col-xl-4 col-lg-4 grid-item cat1 cat6 cat4">
+                  <div class="col-xl-4 col-lg-4 col-md-4 grid-item cat1 cat6 cat4">
                       <div class="portfolio-wrapper mb-30">
                           <div class="portfolio-thumb">
                               <img src="img/portfolio/port1.jpg" alt="">
@@ -289,7 +285,7 @@ anything. Buy it today!</h3>
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4 grid-item cat1 cat3 cat5">
+                  <div class="col-xl-4 col-lg-4 col-md-4 grid-item cat1 cat3 cat5">
                       <div class="portfolio-wrapper mb-30">
                           <div class="portfolio-thumb">
                               <img src="img/portfolio/port2.jpg" alt="">
@@ -301,7 +297,7 @@ anything. Buy it today!</h3>
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4 grid-item cat2 cat4 cat6">
+                  <div class="col-xl-4 col-lg-4 col-md-4 grid-item cat2 cat4 cat6">
                       <div class="portfolio-wrapper mb-30">
                           <div class="portfolio-thumb">
                               <img src="img/portfolio/port3.jpg" alt="">
@@ -313,7 +309,7 @@ anything. Buy it today!</h3>
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4 grid-item cat1 cat2 cat3">
+                  <div class="col-xl-4 col-lg-4 col-md-4 grid-item cat1 cat2 cat3">
                       <div class="portfolio-wrapper mb-30">
                           <div class="portfolio-thumb">
                               <img src="img/portfolio/port6.jpg" alt="">
@@ -325,7 +321,7 @@ anything. Buy it today!</h3>
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4 grid-item cat4 cat5 cat6">
+                  <div class="col-xl-4 col-lg-4 col-md-4 grid-item cat4 cat5 cat6">
                       <div class="portfolio-wrapper mb-30">
                           <div class="portfolio-thumb">
                               <img src="img/portfolio/port4.jpg" alt="">
@@ -337,7 +333,7 @@ anything. Buy it today!</h3>
                           </div>
                       </div>
                   </div>
-                  <div class="col-xl-4 col-lg-4 grid-item cat1 cat3 cat5">
+                  <div class="col-xl-4 col-lg-4 col-md-4 grid-item cat1 cat3 cat5">
                       <div class="portfolio-wrapper mb-30">
                           <div class="portfolio-thumb">
                               <img src="img/portfolio/port5.jpg" alt="">
@@ -365,28 +361,28 @@ anything. Buy it today!</h3>
       <div class="counter-area pt-75 pb-45" style="background-image: url(img/bg/bg-counter.jpg)">
           <div class="container">
               <div class="row">
-                  <div class="col-xl-3 col-lg-3 mb-30">
+                  <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
                       <div class="single-counter text-center">
                           <img src="img/counter/icon1.png" alt="">
                           <span class="counter">5120</span>
                           <p>happy customers</p>
                       </div>
                   </div>
-                  <div class="col-xl-3 col-lg-3 mb-30">
+                  <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
                       <div class="single-counter text-center">
                           <img src="img/counter/icon2.png" alt="">
                           <span class="counter">4351</span>
                           <p>completed projects</p>
                       </div>
                   </div>
-                  <div class="col-xl-3 col-lg-3 mb-30">
+                  <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
                       <div class="single-counter text-center">
                           <img src="img/counter/icon3.png" alt="">
                           <span class="counter">1200</span>
                           <p>best engineers</p>
                       </div>
                   </div>
-                  <div class="col-xl-3 col-lg-3 mb-30">
+                  <div class="col-xl-3 col-lg-3 col-md-3 mb-30">
                       <div class="single-counter text-center">
                           <img src="img/counter/icon4.png" alt="">
                           <span class="counter">098</span>
@@ -580,7 +576,7 @@ anything. Buy it today!</h3>
           <div class="widget-area pb-60 pt-60 gray-bg">
               <div class="container">
                   <div class="row">
-                      <div class="col-xl-4 col-lg-3">
+                      <div class="col-xl-4 col-lg-3 col-md-4">
                           <div class="footer-widget">
                               <h3>Contact Us</h3>
                               <ul class="footer-info">
@@ -592,7 +588,7 @@ anything. Buy it today!</h3>
                               </ul>
                           </div>
                       </div>
-                      <div class="col-xl-4 col-lg-5">
+                      <div class="col-xl-4 col-lg-5 col-md-3">
                           <div class="footer-widget">
                               <h3>Usefull links</h3>
                               <ul class="footer-link">
@@ -609,7 +605,7 @@ anything. Buy it today!</h3>
                               </ul>
                           </div>
                       </div>
-                      <div class="col-xl-4 col-lg-4">
+                      <div class="col-xl-4 col-lg-4 col-md-5">
                           <div class="footer-widget">
                               <h3>Our Newsletter</h3>
                               <p>Subscribe to our mailing list to get the up dates to your email inbox.</p>
@@ -641,10 +637,11 @@ anything. Buy it today!</h3>
   </div>
   <!-- All js here -->
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="js/vendor/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
   <script src="js/slick.min.js"></script>

@@ -2,6 +2,11 @@
     
     "use strict";
     
+    jQuery('#mobile-menu').meanmenu({
+        meanMenuContainer: '.mobile-menu',
+        meanScreenWidth: "991"
+    });
+    
     // slider active
     $('.slider-active').slick({
           dots: false,
@@ -17,7 +22,7 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false
               }
             },
             {
@@ -56,9 +61,9 @@
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 991,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 2,
                 slidesToScroll: 1
               }
             },
@@ -122,13 +127,13 @@
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false
               }
             },
             {
-              breakpoint: 600,
+              breakpoint: 991,
               settings: {
-                slidesToShow: 1,
+                slidesToShow: 4,
                 slidesToScroll: 1
               }
             },

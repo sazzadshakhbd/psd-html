@@ -654,7 +654,7 @@ label {
     color: #333;
     margin: 0;
 }
-/* ===== counter-area CSS ==== */
+/* ===== blog-carousel CSS ==== */
 .blog-wrapper {
     padding:30px;
     overflow: hidden;
@@ -718,6 +718,7 @@ label {
 .custom-row {
     margin:0 -15px;
 }
+/* ===== dot style CSS ==== */
 .dot-style .slick-dots{
     position: absolute;
     left: 0;
@@ -799,8 +800,9 @@ label {
     padding-left: 20px;
 }
 .footer-link li a::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 600; 
     content: "\f0da";
-    font-family: fontawesome;
     position: absolute;
     left: 0;
     top:0;

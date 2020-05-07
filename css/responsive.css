@@ -3,12 +3,30 @@
     .single-slider.slider-height {
         min-height: 700px;
     }
+    .header-button {
+        margin-left: 30px;
+    }
+    .main-menu ul li {
+        margin-left: 30px;
+    }
+    .slider-content {
+        margin-left:2rem;
+    }
+    .slider-content h1 {
+        font-size:45px;
+    }
+    .slide-img {
+        margin-top:30px;
+    }
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
     .header-top-area {
         padding: 0 0;
+    }
+    .features-title h2 {
+        font-size:35px;
     }
     .header-bottom-area {
         padding-left: 0;
@@ -52,6 +70,8 @@
     .header-bottom-area {
         padding-top: 20px;
         padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
     }
     .single-slider.slider-height {
         min-height: 550px;
@@ -73,7 +93,22 @@
         padding-bottom: 50px;
     }
     .wrapper-box {
-        padding-left: 20px;
+        padding:0;
+    }
+    .header-top-area {
+        padding: 0;
+    }
+    .features-title h2 {
+        font-size:30px;
+    }
+    .single-counter > span {
+        font-size:20px;
+    }
+    .single-counter > p {
+        font-size:12px;
+    }
+    .footer-widget h3 {
+        font-size:20px;
     }
     .footer-link li {
         width: 100%;

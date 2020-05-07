@@ -456,6 +456,7 @@ label {
 /* ===== slider-area CSS ==== */
 .single-slider.slider-height {
     min-height: 850px;
+    background-size: cover;
 }
 .slider-content span {
     font-family: 'Poppins', sans-serif;
@@ -639,6 +640,9 @@ label {
     line-height: 30px;
 }
 /* ===== counter-area CSS ==== */
+.counter-area {
+    background-size:cover;
+}
 .single-counter > span {
     font-family: 'Poppins', sans-serif;
     color: #333;

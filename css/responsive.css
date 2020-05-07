@@ -119,11 +119,59 @@
  
 /* Extra small Device. */
 @media (max-width: 767px) {
-
- 
+.wrapper-box {
+    padding:0;
+}
+.header-top-area {
+    padding: 0;
+}
+.header-bottom-area {
+    padding:15px 0 0 0;
+}
+.extra-info {
+    width:100%;
+}
+.single-slider.slider-height {
+    min-height: 550px;
+    background-size: cover;
+}
+.slider-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.slider-content span {
+    letter-spacing: 3px;
+}
+.slider-content p {
+    font-size: 15px;
+    padding-right: 0;
+}
+.features-title h2 {
+    font-size:25px;
+}
+.single-features h2 {
+    font-size:20px;
+}
+.promotion-text {
+    padding-left: 0;
+}
+.promotion-text h3 {
+    font-size:23px;
+}
+.portfolio-menu > button {
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 2px 3px;
+}
+.cap img {
+    width:100%;
+}
+.slick-slide img {
+    margin: 0 auto;
+}
 }
  
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
+    
 }

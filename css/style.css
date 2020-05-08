@@ -224,6 +224,11 @@ label {
     font-weight: 500;
     font-size: 15px;
 }
+.btn.btn-2 {
+    background: none;
+    border: 1px solid #fbba42;
+    padding:17px 35px;
+}
 
 
 
@@ -272,7 +277,7 @@ label {
     display: block;
     font-size: 12px;
     padding: 5px 10px;
-    color: #ddd;
+    color: #ddd!important;
 }
 
 .language ul li:hover > a {
@@ -452,6 +457,39 @@ label {
     left:100%;
     top:0;
 }
+.mean-container .mean-bar {
+    z-index:0;
+}
+
+/* Index-2 CSS */
+header.transparent-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.transparent-header .main-menu ul li {
+    margin-left: 45px;
+}
+.transparent-header .main-menu ul li a {
+    color:#343434;
+}
+.transparent-header .language ul li a {
+    color:#343434;
+}
+.transparent-header .social-icon > a {
+    color:#343434;
+}
+.transparent-header .header-right li a {
+    color:#343434;
+}
+.transparent-header .header-top-area {
+    border-bottom: 1px solid #d9a138;
+}
+.transparent-header .social-icon:before {
+    background: #e0af4c;
+}
 
 /* ===== slider-area CSS ==== */
 .single-slider.slider-height {
@@ -479,6 +517,15 @@ label {
     padding-right: 120px;
     line-height: 30px;
     margin-bottom: 40px;
+}
+/* Index-2 Slider */
+.height-100 {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.slider-full.slider-full > img {
+    width:70%;
 }
 
 /* ===== features-area CSS ==== */

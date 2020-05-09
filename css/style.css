@@ -753,6 +753,19 @@ header.transparent-header {
     margin: 0;
 }
 
+/* Index-2 */
+.single-counter.counter-2 > span {
+    font-size: 72px;
+    line-height: 1;
+    margin-top: 0;
+}
+.single-counter.counter-2 > p {
+    color: #333;
+    font-size: 15px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
 /* ===== blog-carousel CSS ==== */
 
 .blog-wrapper {

@@ -730,6 +730,18 @@ header.transparent-header {
     line-height: 30px;
 }
 
+.section-title-2 > h2 {
+    font-size: 40px;
+    color: #010101;
+    line-height: 60px;
+}
+
+.section-title-2 > a {
+    color: #333;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 /* ===== counter-area CSS ==== */
 
 .counter-area {
@@ -842,6 +854,52 @@ header.transparent-header {
 
 .custom-row {
     margin:0 -15px;
+}
+
+/* ===== latest-blog-2 CSS ==== */
+
+.blog-latest-content {
+    padding-top:25px;
+}
+
+.blog-title {
+    margin-bottom: 20px;
+}
+
+.blog-title > span {
+    border: 1px solid #ebebeb;
+    color: #333;
+    display: inline-block;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 1;
+    padding-top: 10px;
+    text-align: center;
+    width: 50px;
+}
+
+.blog-title > span span {
+    display: block;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.blog-title > h2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-left: 26px;
+    margin-bottom: 0;
+}
+
+.blog-latest-content > a.btn {
+    text-transform: capitalize;
+}
+
+.blog-latest-content > p {
+    margin-bottom: 30px;
 }
 
 /* ===== dot style CSS ==== */

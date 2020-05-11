@@ -903,16 +903,69 @@ header.transparent-header {
 }
 
 .client-info span {
-    
     color: #777;
     font-size: 14px;
 }
 
-/* ===== footer ==== */
-
 .brand-border{
     border-bottom: 1px solid #fbba42;
 }
+
+/* ===== testimonial-2 ==== */
+
+.testimonial-item i {
+    color: #fbba42;
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+
+.testimonial-item > p {
+    font-size:17px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.designation > h3 {
+    font-size:22px;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.testimonial-nav {
+    width:510px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.testimonial-nav button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    position: absolute;
+    left:-50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.testimonial-nav button.slick-next {
+    left:auto;
+    right:-50px;
+}
+
+.testimonial-thumb > img {
+    transform: scale(0.7);
+}
+
+.testimonial-thumb.slick-center > img {
+    transform: scale(01);
+}
+
+
+/* ===== footer ==== */
+
+
 
 .footer-widget h3 {
     font-size: 28px;

@@ -1241,7 +1241,7 @@ header.transparent-header {
     text-align: center;
 }
 
-/* team area */
+/* ===== team area ==== */
 
 .team-info {
     padding-top:33px;
@@ -1311,7 +1311,46 @@ header.transparent-header {
     background: #fff;
 }
 
-/* index-3 accordion */
+.member-title {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.member-title > h3 {
+    font-size:18px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 7px;
+}
+
+.member-title > span {
+    color: #777;
+    font-size: 16px;
+}
+
+.member-icon > a {
+    background: #f7f7f7;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    color: #3f5666;
+    margin: 0 4px;
+}
+
+.member-icon > a:hover {
+    background: #f8ca4d;
+}
+
+/* ===== member-area (about-page) ==== */
+
+.member-box {
+    padding: 25px;
+}
+
+/* ===== index-3 accordion ==== */
 
 .our-mission .btn-link {
     background:none;
@@ -1377,4 +1416,25 @@ header.transparent-header {
 
 .our-mission .card-body {
     padding: 15px 0 0 0;
+}
+
+/* ===== page title area ==== */
+
+.page-title h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #414149;
+}
+
+.breadcrumb {
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.breadcrumb-item > a {
+    font-size: 17px;
+    color: #2f3440;
 }

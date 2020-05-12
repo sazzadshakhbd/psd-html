@@ -253,6 +253,13 @@ label {
     padding: 18px 0;
 }
 
+.language-header-3 > ul > li > a {
+    border: 2px solid #ebebeb;
+    padding:12px 30px;
+    line-height: 1;
+    border-radius: 30px;
+}
+
 .language ul li ul {
     position: absolute;
     top: 100%;
@@ -286,6 +293,14 @@ label {
     padding-left: 30px;
     margin-left: 30px;
     position: relative;
+}
+
+.social-header-3 {
+    margin-left: 0;
+}
+
+.social-header-3:before {
+    display: none;
 }
 
 .social-icon:before {
@@ -450,6 +465,7 @@ label {
     display: block;
     padding: 10px 20px;
     color: #fff;
+    text-align: left;
 }
 .main-menu ul li ul.submenu li:hover > a {
     color: #fbba42;
@@ -499,6 +515,21 @@ header.transparent-header {
     background: #e0af4c;
 }
 
+/* header-3 */
+
+.header-left-bar {
+    margin-top: 0;
+}
+
+.header-left-bar ul li {
+    margin-left: 0;
+}
+
+.header-3-right {
+    margin-top: 0;
+    text-align: center;
+}
+
 /* ===== slider-area CSS ==== */
 
 .single-slider.slider-height {
@@ -541,6 +572,29 @@ header.transparent-header {
 
 .slider-full.slider-full > img {
     width:70%;
+}
+
+/* ===== Index-3 Slider CSS ==== */
+
+.single-slider.slider-height-3 {
+    min-height: 720px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slider-height-3 .slider-content h1 {
+    color: #fff;
+    font-size: 90px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.slider-height-3 .slider-content span {
+    color:#fff;
+}
+
+.slider-height-3 .btn {
+    border-radius: 30px;
 }
 
 /* ===== features-area CSS ==== */
@@ -742,6 +796,7 @@ header.transparent-header {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 /* ===== counter-area CSS ==== */
 
 .counter-area {
@@ -765,7 +820,8 @@ header.transparent-header {
     margin: 0;
 }
 
-/* Index-2 */
+/* Index-2 CSS */
+
 .single-counter.counter-2 > span {
     font-size: 72px;
     line-height: 1;
@@ -1022,7 +1078,6 @@ header.transparent-header {
 
 
 /* ===== footer ==== */
-
 
 
 .footer-widget h3 {

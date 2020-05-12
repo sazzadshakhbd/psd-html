@@ -665,6 +665,10 @@ header.transparent-header {
     margin-bottom: 30px;
 }
 
+.promotion-img-3 {
+    width:100%;
+}
+
 /* ===== portfolio-area CSS ==== */
 
 .portfolio-wrapper {
@@ -1076,6 +1080,23 @@ header.transparent-header {
     transform: scale(01);
 }
 
+/* ===== testimonial-3 ==== */
+
+.testimonial-3 {
+    margin:0;
+    padding:48px;
+}
+
+.testimonial-3 i {
+    color: #fbba42;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial-3 > p {
+    margin-bottom: 30px;
+}
+
 
 /* ===== footer ==== */
 
@@ -1288,4 +1309,72 @@ header.transparent-header {
 
 .team-icon > a:hover {
     background: #fff;
+}
+
+/* index-3 accordion */
+
+.our-mission .btn-link {
+    background:none;
+    border: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.our-mission .btn-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.our-mission .btn-link:focus {
+    text-decoration: none;
+}
+
+.our-mission .btn-link:before {
+    position: absolute;
+    content: "-";
+    right: 0;
+    border: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    background: #fbba42;
+    cursor: pointer;
+    top:5px;
+}
+
+.our-mission .btn-link.collapsed:before {
+    position: absolute;
+    content: "+";
+    border: 1px solid #282828;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 2px;
+    background: none;
+    top:5px;
+}
+
+.our-mission .card {
+    background: none;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.our-mission .card-header {
+    border-radius: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.our-mission .card-body {
+    padding: 15px 0 0 0;
 }

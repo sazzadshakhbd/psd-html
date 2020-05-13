@@ -774,6 +774,42 @@ header.transparent-header {
     color: #3b3f42;
 }
 
+/* ===== portfolio-details CSS ==== */
+
+.project-details-title {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.project-desc > p {
+    margin-bottom: 30px;
+}
+
+.project-status {
+    padding:40px;
+}
+
+.project-status ul li {
+    margin-bottom: 30px;
+}
+
+.project-status ul li:last-child {
+    margin-bottom: 0;
+}
+
+.project-status ul li span {
+    color: #777;
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.project-status ul li b {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #777;
+}
+
 /* ===== section-title CSS ==== */
 
 .section-title > h2 {
@@ -961,6 +997,48 @@ header.transparent-header {
 .blog-latest-content > p {
     margin-bottom: 30px;
 }
+
+/* ===== blog-style CSS ==== */
+
+.blog-item-content {
+    padding-top: 20px;
+}
+
+.blog-item-content a {
+    color: #333;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.blog-item-content > span {
+    color: #333;
+    display: block;
+    font-family: poppins;
+    font-size: 14px;
+    margin-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.blog-item-content > span:after {
+    background-color: #fbba42;
+    height: 2px;
+    content: "";
+    left: 70px;
+    position: absolute;
+    top: 9px;
+    width: 80px;
+}
+
+.blog-item-content > h3 {
+    margin-bottom: 10px;
+}
+
+.blog-item-content > p {
+    margin: 0;
+}
+
 
 /* ===== dot style CSS ==== */
 

@@ -1311,6 +1311,12 @@ header.transparent-header {
     background: #fff;
 }
 
+/* ===== member-area (about-page) ==== */
+
+.member-box {
+    padding: 25px;
+}
+
 .member-title {
     margin-bottom: 20px;
     margin-top: 30px;
@@ -1344,11 +1350,6 @@ header.transparent-header {
     background: #f8ca4d;
 }
 
-/* ===== member-area (about-page) ==== */
-
-.member-box {
-    padding: 25px;
-}
 
 /* ===== index-3 accordion ==== */
 
@@ -1437,4 +1438,43 @@ header.transparent-header {
 .breadcrumb-item > a {
     font-size: 17px;
     color: #2f3440;
+}
+
+/* ===== service area ==== */
+
+.service-box {
+    border: 2px solid transparent;
+    padding: 30px;
+    transition: 0.3s;
+}
+
+.service-box:hover {
+    border-color: #f2f2f2;
+}
+
+.service-box i {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    color: #333333;
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service-box:hover i {
+   background-color: #fbba42;
+}
+
+.service-box > h3 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service-box > p {
+    margin-bottom: 0;
 }

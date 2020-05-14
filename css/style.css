@@ -1039,6 +1039,41 @@ header.transparent-header {
     margin: 0;
 }
 
+/* construction pagination */
+
+.construction-pagination .page-item:first-child .page-link {
+    border-radius: 0;
+}
+
+.construction-pagination .page-item:last-child .page-link {
+     border-radius: 0;
+}
+
+.construction-pagination .page-item {
+    margin: 0 5px;
+}
+
+.construction-pagination .page-link {
+    color: #666666;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    width: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.construction-pagination .page-link:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.construction-pagination .page-item.active .page-link {
+    z-index: 1;
+    color: #414149;
+    background-color: #fbba42;
+    border-color: #fbba42;
+}
+
 
 /* ===== dot style CSS ==== */
 

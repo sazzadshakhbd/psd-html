@@ -1591,3 +1591,78 @@ header.transparent-header {
 .service-box > p {
     margin-bottom: 0;
 }
+
+/* ===== contact form ==== */
+
+.contact-form {
+    padding: 60px 40px;
+}
+
+.contact-form > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.contact-form input {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #cccccf;
+    height: 60px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.contact-form input:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-form textarea {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #cccccf;
+    height: 80px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.contact-form textarea:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.contact-form button {
+    padding: 15px;
+}
+
+.contact-info {
+    border: 1px solid #f2f2f2;
+    padding: 52px 45px;
+}
+
+.contact-info > span {
+    color: #646464;
+    font-size: 17px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-info h2 {
+    color: #414149;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.contact-meta-info h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact-meta-info > p {
+    margin-bottom: 5px;
+}
+
+

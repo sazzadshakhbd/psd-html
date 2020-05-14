@@ -1592,7 +1592,7 @@ header.transparent-header {
     margin-bottom: 0;
 }
 
-/* ===== contact form ==== */
+/* ===== contact page ==== */
 
 .contact-form {
     padding: 60px 40px;
@@ -1665,4 +1665,83 @@ header.transparent-header {
     margin-bottom: 5px;
 }
 
+/* ===== career page ==== */
 
+.why-choose {
+    padding: 0 20px;
+}
+
+.why-choose i {
+    background-color: #fbba42;
+    border-radius: 50%;
+    color: #414149;
+    font-size: 36px;
+    height: 110px;
+    width: 110px;
+    line-height: 108px;
+    margin-bottom: 30px;
+}
+
+.why-choose h2 {
+    color: #414149;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.why-choose > p {
+    margin-bottom: 0;
+}
+
+.job-list {
+    padding:30px 30px 65px;
+}
+
+.job-list h3 {
+    border-bottom: 1px solid #fbba42;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    padding-bottom: 15px;
+}
+
+.job-list ul li {
+    margin-bottom: 20px;
+}
+
+.job-list ul li a {
+    color: #777;
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.job-desc > h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.job-desc ul li {
+    color: #777;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.job-desc ul li:before {
+    border: 2px solid #5a596a;
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 12px;
+    width: 10px;
+}
+
+.cv-send > p > span {
+    font-weight: 600;
+}

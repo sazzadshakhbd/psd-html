@@ -229,6 +229,9 @@
         delay: 10,
         time: 1000
     });
+
+  // nice-select
+  $('select').niceSelect();
     
     
 })(jQuery);

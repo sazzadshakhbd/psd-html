@@ -234,6 +234,10 @@ label {
     padding:17px 35px;
 }
 
+.btn i {
+    margin-right: 10px;
+}
+
 /* ===== Header Top CSS ==== */
 
 .header-top-area {
@@ -1806,4 +1810,50 @@ header.transparent-header {
     float: right;
     border-radius: 0;
     border: 1px solid #d6d6d6;
+}
+
+/* ===== product-details page ==== */
+
+.product-zoom-img .product-tab {
+    float: left;
+    width: 70px;
+}
+
+.product-zoom-img .product-tab .nav-link {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.product-zoom-img .tab-content {
+    margin-left: 95px;
+}
+
+.product-desc h2 {
+    color: #010101;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.product-desc .nice-select {
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
+    display: inline-block;
+    float: none;
+    height: 50px;
+    line-height: 45px;
+    width: 70px;
+    margin-left: 18px;
+}
+
+.rating > a {
+    color: #fbba42;
+    font-size: 15px;
+}
+
+.pro-details-action a {
+    display: inline-block;
+    float: left;
+    padding-bottom: 17px;
+    padding-top: 17px;
 }

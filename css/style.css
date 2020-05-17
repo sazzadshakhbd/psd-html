@@ -1835,6 +1835,29 @@ header.transparent-header {
     margin-bottom: 15px;
 }
 
+.rating > a {
+    color: #fbba42;
+    font-size: 15px;
+}
+
+.product-desc > span {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.product-desc > p {
+    margin-bottom: 40px;
+}
+
+.product-desc .pro-details-action a {
+    display: inline-block;
+    float: left;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
 .product-desc .nice-select {
     border: 1px solid #d6d6d6;
     border-radius: 0;
@@ -1846,14 +1869,70 @@ header.transparent-header {
     margin-left: 18px;
 }
 
-.rating > a {
-    color: #fbba42;
-    font-size: 15px;
+.review-tab {
+    border-bottom: 1px solid #e5e5e5;
 }
 
-.pro-details-action a {
-    display: inline-block;
+.review-tab .nav-link {
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0 0 15px 0;
+}
+
+.review-tab .nav-item {
+    margin-right: 65px;
+    position: relative;
+}
+
+.review-tab .nav-link.active:before {
+    background-color: #fbba42;
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    transform: 0.3s;
+    width: 100%;
+}
+
+.review-text > h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.product-comments-list {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+
+.product-comments-list:last-child {
+    border: 0;
+}
+
+.pro-comments-img {
     float: left;
-    padding-bottom: 17px;
-    padding-top: 17px;
+}
+
+.pro-comments-text {
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.pro-comments-text h4 {
+    font-size: 17px;
+}
+
+.pro-comments-text span {
+    font-size: 14px;
+}
+
+.pro-comments-text .rating {
+    margin-bottom: 20px;
+}
+
+.pro-comments-text > p {
+    margin: 0;
 }

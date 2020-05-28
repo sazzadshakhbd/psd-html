@@ -1330,6 +1330,25 @@ header.transparent-header {
     font-size: 12px;
 }
 
+.post-comments-form {
+
+}
+
+.post-comments-form input {
+    border: 1px solid #e6e6e6;
+    height: 45px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-left: 15px;
+}
+
+.post-comments-form textarea {
+    border: 1px solid #e6e6e6;
+    height: 130px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px;
+}
 /* ===== testimonial-wrapper ==== */
 
 .testimonial-wrapper {

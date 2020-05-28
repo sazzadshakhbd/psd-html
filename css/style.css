@@ -49,7 +49,8 @@ body {
 }
 
 a,
-.button {
+.button,
+button {
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -75,6 +76,7 @@ a,
 button {
     color: #1696e7;
     outline: medium none;
+    cursor: pointer;
 }
 
 button:focus {
@@ -2198,10 +2200,6 @@ header.transparent-header {
     font-size: 16px;
 }
 
-.review-form {
-
-}
-
 .review-form label {
     color: #414141;
     display: block;
@@ -2225,6 +2223,90 @@ header.transparent-header {
     width: 100%;
 }
 
-.review-form button {
-    
+/* ===== cart page ==== */
+
+.cart-table .table-bordered th {
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 0;
+}
+
+.cart-table .table-bordered td {
+    text-align: center;
+    text-transform: capitalize;
+    vertical-align: middle;
+}
+
+.cart-name h4 a {
+    color: #414149;
+    font-size: 17px;
+}
+
+.cart-price span {
+    color: #777;
+    font-size: 17px;
+}
+
+.cart-select .nice-select {
+    float: none;
+    width: 70px;
+}
+
+.cart-del > a {
+    color: #777;
+}
+
+.coupon-left input {
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 15px;
+    width: 50%;
+}
+
+.coupon-left button {
+     background: none;
+     border: 1px solid #ddd;
+     color: #414149;
+     font-size: 16px;
+     margin-left: 10px;
+     padding: 12px 35px;
+     text-transform: uppercase;
+}
+
+.coupon-left button:hover {
+    background: #fbba42;
+    border-color: #fbba42;
+}
+
+.update-cart > a {
+    border: 1px solid #ddd;
+    color: #414149;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 14px 25px;
+    display: inline-block;
+}
+
+.update-cart > a:hover {
+    background: #fbba42;
+    border-color: #fbba42;
+}
+
+.cart-total-price > ul {
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.cart-total-price ul li {
+    border: 1px solid #ddd;
+    padding: 17px 28px;
+}
+
+.cart-total-price ul li:last-child {
+    border: 0;
+}
+
+.cart-total-price > span {
+    float: right;
+    font-weight: 500;
 }

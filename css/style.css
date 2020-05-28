@@ -1936,3 +1936,54 @@ header.transparent-header {
 .pro-comments-text > p {
     margin: 0;
 }
+
+.review-box > h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rating-list {
+    display: inline-block;
+}
+
+.rating-list > a {
+    color: #646464;
+    font-size: 13px;
+}
+
+.your-rating > span {
+    color: #414149;
+    font-size: 16px;
+}
+
+.review-form {
+
+}
+
+.review-form label {
+    color: #414141;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.review-form textarea {
+    border: 1px solid #eaeaee;
+    height: 80px;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 100%;
+}
+
+.review-form input {
+    border: 1px solid #eaeaee;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.review-form button {
+    
+}

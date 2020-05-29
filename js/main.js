@@ -141,7 +141,17 @@
       nextArrow: '<button type="button" class="slick-next"><i class="fas fa-chevron-right"></i></button>',
       centerMode: true,
       focusOnSelect: true,
-      centerPadding:0
+      centerPadding: 0,
+      responsive: [
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: false
+          }
+        }
+      ]
     });
     
     // brand-active

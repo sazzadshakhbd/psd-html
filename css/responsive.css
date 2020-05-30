@@ -517,6 +517,11 @@
     padding: 30px;
 }
 
+.product-filter .nice-select {
+    float: left;
+    margin-top: 15px;
+}
+
 }
  
 /* SM Small Device :550px. */

@@ -1011,6 +1011,10 @@ header.transparent-header {
 
 /* ===== blog-style CSS ==== */
 
+.blog-thumb > a > img {
+    width: 100%;
+}
+
 .blog-item-content {
     padding-top: 20px;
 }

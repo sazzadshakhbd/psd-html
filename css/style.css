@@ -782,6 +782,10 @@ header.transparent-header {
 
 /* ===== portfolio-details CSS ==== */
 
+.portfolio-details-img {
+    margin-bottom: 25px;
+}
+
 .project-details-title {
     font-size: 28px;
     font-weight: 600;

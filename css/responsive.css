@@ -294,6 +294,12 @@
         margin-bottom: 40px;
     }
 
+    /* portfolio details */
+
+    .portfolio-details-img {
+        margin-bottom: 15px;
+    }
+
 
 }
 
@@ -503,6 +509,12 @@
 
 .contact-form {
     margin-bottom: 40px;
+}
+
+/* portfolio-details */
+
+.project-status {
+    padding: 30px;
 }
 
 }

@@ -154,6 +154,12 @@
         font-size: 14px;
     }
 
+    /* contact page */
+
+    .contact-info {
+        padding: 37px 45px;
+    }
+
 
 }
 
@@ -280,6 +286,12 @@
 
     .coupon-left {
         margin-bottom: 5px;
+    }
+
+    /* contact page */
+
+    .contact-form {
+        margin-bottom: 40px;
     }
 
 
@@ -470,7 +482,7 @@
 }
 
 .coupon-left input {
-    width: 75%;
+    width: 100%;
     margin-bottom: 5px;
 }
 
@@ -485,6 +497,12 @@
 
 .coupon-left {
     margin-bottom: 5px;
+}
+
+/* contact page */
+
+.contact-form {
+    margin-bottom: 40px;
 }
 
 }

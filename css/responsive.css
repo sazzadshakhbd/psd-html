@@ -229,6 +229,10 @@
         padding: 100px 0;
     }
 
+    .blog-space {
+        padding-right: 15px;
+    }
+
 }
 
  
@@ -389,6 +393,10 @@
 
 .comments-reply {
     padding-left: 0;
+}
+
+.blog-space {
+    padding-right: 15px;
 }
 
 }

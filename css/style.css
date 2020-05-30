@@ -2301,7 +2301,7 @@ header.transparent-header {
      color: #414149;
      font-size: 16px;
      margin-left: 10px;
-     padding: 12px 35px;
+     padding: 12px 25px;
      text-transform: uppercase;
 }
 
@@ -2315,7 +2315,7 @@ header.transparent-header {
     color: #414149;
     font-size: 16px;
     margin-left: 10px;
-    padding: 14px 25px;
+    padding: 14px 18px;
     display: inline-block;
 }
 

@@ -144,6 +144,16 @@
         font-size: 23px;
     }
 
+    /* cart page */
+
+    .update-cart > a {
+        font-size: 14px;
+    }
+    .coupon-left button {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
 
 }
 
@@ -256,6 +266,20 @@
 
     .why-choose {
         padding: 0;
+    }
+
+    /* cart page */
+
+    .update-cart > a {
+        margin-left: 0;
+    }
+
+    .coupon-left button {
+        margin-left: 0;
+    }
+
+    .coupon-left {
+        margin-bottom: 5px;
     }
 
 
@@ -437,6 +461,30 @@
 
 .why-choose h2 {
     font-size: 23px;
+}
+
+/* cart page */
+
+.cart-table {
+    overflow-y: hidden;
+}
+
+.coupon-left input {
+    width: 75%;
+    margin-bottom: 5px;
+}
+
+.update-cart > a {
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.coupon-left button {
+    margin-left: 0;
+}
+
+.coupon-left {
+    margin-bottom: 5px;
 }
 
 }

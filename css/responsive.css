@@ -120,6 +120,16 @@
         min-height: 600px;
     }
 
+    /* blog-details */
+
+    .blog-space {
+        padding-right: 15px;
+    }
+
+    .sidebar-widget > .banner > img {
+        width: 100%;
+    }
+
 }
 
  
@@ -341,7 +351,44 @@
 }
 
 .page-title h1 {
-    font-size:50px;
+    font-size:40px;
+}
+
+/* blog-details page */
+
+.blog-post .blog-item-content h3 a {
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+.blockquote {
+    margin-left: 0;
+}
+
+.blog-post-tag > a {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.comments-box {
+    display: inline-block;
+}
+
+.comments-avatar {
+    float: none;
+}
+
+.post-comments-form {
+    padding: 0;
+}
+
+.comments-text {
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.comments-reply {
+    padding-left: 0;
 }
 
 }

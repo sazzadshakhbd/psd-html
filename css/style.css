@@ -1137,6 +1137,10 @@ header.transparent-header {
     color: #333333;
 }
 
+.blog-thumb > img {
+    width: 100%;
+}
+
 .blog-post {
     border-bottom: 1px solid #e6e6ee;
     padding-bottom: 30px;
@@ -1249,6 +1253,10 @@ header.transparent-header {
     padding-left: 15px;
 }
 
+.blog-content-img > img {
+    width: 100%;
+}
+
 .blog-post-tag > a {
     border: 1px solid #ededed;
     color: #444;
@@ -1342,7 +1350,7 @@ header.transparent-header {
 }
 
 .post-comments-form {
-
+    margin-bottom: 50px;
 }
 
 .post-comments-form input {

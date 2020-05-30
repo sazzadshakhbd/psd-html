@@ -130,6 +130,21 @@
         width: 100%;
     }
 
+    /* career page */
+    .job-list {
+        padding: 30px 30px 20px;
+        margin-bottom: 30px;
+    }
+
+    .why-choose {
+        padding: 0;
+    }
+
+    .why-choose h2 {
+        font-size: 23px;
+    }
+
+
 }
 
  
@@ -232,6 +247,17 @@
     .blog-space {
         padding-right: 15px;
     }
+
+    /* career page */
+    .job-list {
+        padding: 30px 30px 20px;
+        margin-bottom: 30px;
+    }
+
+    .why-choose {
+        padding: 0;
+    }
+
 
 }
 
@@ -397,6 +423,20 @@
 
 .blog-space {
     padding-right: 15px;
+}
+
+/* career page */
+.job-list {
+    padding: 30px 30px 20px;
+    margin-bottom: 30px;
+}
+
+.why-choose {
+    padding: 0;
+}
+
+.why-choose h2 {
+    font-size: 23px;
 }
 
 }

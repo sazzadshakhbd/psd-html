@@ -522,6 +522,24 @@
     margin-top: 15px;
 }
 
+/* product-details */
+
+.product-desc h2 {
+    font-size: 30px;
+}
+.review-tab .nav-item {
+    margin-right: 30px;
+}
+
+.product-desc .pro-details-action a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.product-desc .nice-select {
+    height: 52px;
+    margin-left: 7px;
+}
 }
  
 /* SM Small Device :550px. */

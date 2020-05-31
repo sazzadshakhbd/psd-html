@@ -1,0 +1,548 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    .single-slider.slider-height {
+        min-height: 700px;
+    }
+
+    .header-button {
+        margin-left: 30px;
+    }
+
+    .main-menu ul li {
+        margin-left: 30px;
+    }
+
+    .slider-content {
+        margin-left:2rem;
+    }
+
+    .slider-content h1 {
+        font-size:45px;
+    }
+
+    .slide-img {
+        margin-top:30px;
+    }
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .header-top-area {
+        padding: 0 0;
+    }
+
+    .features-title h2 {
+        font-size:35px;
+    }
+
+    .header-bottom-area {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .main-menu ul li {
+        margin-left: 30px;
+    }
+
+    .header-button {
+        margin-left:25px;
+    }
+
+    .header-button a {
+        padding: 14px 16px;
+    }
+
+    .wrapper-box {
+        padding: 0 15px;
+    }
+
+    .slide-img img {
+        width: 100%;
+    }
+
+    .single-slider.slider-height {
+        min-height: 600px;
+    }
+
+    .single-features {
+        padding: 0 0;
+    }
+
+    .promotion-text {
+        padding-left: 20px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .footer-widget h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    /* index-2 */
+    .slider-content h1 {
+        font-size: 50px;
+    }
+
+    .promo-text-2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .single-counter.counter-2 {
+        text-align: center;
+    }
+
+    .single-counter.counter-2 > p {
+        padding-left: 0;
+    }
+
+    /* index-3 */
+
+
+    .header-top-area-3 {
+        padding: 15px 0;
+    }
+
+    .menu-style-3.mean-container a.meanmenu-reveal {
+        margin-top: -30px;
+    }
+
+    .slider-height-3 .slider-content h1 {
+        font-size: 60px;
+    }
+
+    .single-slider.slider-height-3 {
+        min-height: 600px;
+    }
+
+    /* blog-details */
+
+    .blog-space {
+        padding-right: 15px;
+    }
+
+    .sidebar-widget > .banner > img {
+        width: 100%;
+    }
+
+    /* career page */
+    .job-list {
+        padding: 30px 30px 20px;
+        margin-bottom: 30px;
+    }
+
+    .why-choose {
+        padding: 0;
+    }
+
+    .why-choose h2 {
+        font-size: 23px;
+    }
+
+    /* cart page */
+
+    .update-cart > a {
+        font-size: 14px;
+    }
+    .coupon-left button {
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    /* contact page */
+
+    .contact-info {
+        padding: 37px 45px;
+    }
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-bottom-area {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-slider.slider-height {
+        min-height: 550px;
+    }
+    .single-features {
+        padding:0;
+    }
+    .single-features h2 {
+        font-size: 20px;
+        margin: 30px 0 10px 0;
+    }
+    .single-features > p {
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .promotion-text {
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .wrapper-box {
+        padding:0;
+    }
+    .header-top-area {
+        padding: 0;
+    }
+    .features-title h2 {
+        font-size:30px;
+    }
+    .single-counter > span {
+        font-size:20px;
+    }
+    .single-counter > p {
+        font-size:12px;
+    }
+    .footer-widget h3 {
+        font-size:20px;
+    }
+    .footer-link li {
+        width: 100%;
+    }
+
+    /* index-2 */
+    .promo-text-2 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .single-counter.counter-2 {
+        text-align: center;
+    }
+
+    .single-counter.counter-2 > p {
+        padding-left: 0;
+    }
+
+    /* index-3 */
+
+    .header-top-area-3 {
+        padding: 15px 0;
+    }
+
+    .menu-style-3.mean-container a.meanmenu-reveal {
+        margin-top: -30px;
+    }
+
+    .slider-height-3 .slider-content h1 {
+        font-size: 55px;
+    }
+
+    .single-slider.slider-height-3 {
+        min-height: 500px;
+    }
+
+    .promotion-img-3 {
+        width: 100%;
+        height: 400px;
+        position: inherit;
+    }
+
+    .testimonial-3 {
+        margin-bottom: 40px;
+    }
+
+    /* about page */
+    .page-title-area {
+        padding: 100px 0;
+    }
+
+    .blog-space {
+        padding-right: 15px;
+    }
+
+    /* career page */
+    .job-list {
+        padding: 30px 30px 20px;
+        margin-bottom: 30px;
+    }
+
+    .why-choose {
+        padding: 0;
+    }
+
+    /* cart page */
+
+    .update-cart > a {
+        margin-left: 0;
+    }
+
+    .coupon-left button {
+        margin-left: 0;
+    }
+
+    .coupon-left {
+        margin-bottom: 5px;
+    }
+
+    /* contact page */
+
+    .contact-form {
+        margin-bottom: 40px;
+    }
+
+    /* portfolio details */
+
+    .portfolio-details-img {
+        margin-bottom: 15px;
+    }
+
+
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+.wrapper-box {
+    padding:0;
+}
+.header-top-area {
+    padding: 0;
+}
+.header-bottom-area {
+    padding:15px 0 0 0;
+}
+.extra-info {
+    width:100%;
+}
+.single-slider.slider-height {
+    min-height: 550px;
+    background-size: cover;
+}
+.slider-content h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.slider-content span {
+    letter-spacing: 3px;
+}
+.slider-content p {
+    font-size: 15px;
+    padding-right: 0;
+}
+.features-title h2 {
+    font-size:25px;
+}
+.single-features h2 {
+    font-size:20px;
+}
+.promotion-text {
+    padding-left: 0;
+}
+.promotion-text h3 {
+    font-size:23px;
+}
+.portfolio-menu > button {
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 2px 3px;
+}
+.cap img {
+    width:100%;
+}
+.slick-slide img {
+    margin: 0 auto;
+}
+
+/* index-2 */
+.promo-text-2 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.cta-img > img {
+    width: 100%;
+}
+
+.portfolio-menu {
+    padding: 0 15px;
+}
+
+.single-counter.counter-2 {
+    text-align: center;
+}
+
+.single-counter.counter-2 > p {
+    padding-left: 0;
+}
+
+.testimonial-nav {
+    width:70%;
+}
+
+/* index-3 */
+
+.header-top-area-3 {
+    padding: 15px 0;
+}
+
+.menu-style-3.mean-container a.meanmenu-reveal {
+    margin-top: -30px;
+}
+
+.slider-height-3 .slider-content h1 {
+    font-size: 40px;
+}
+
+.single-slider.slider-height-3 {
+    min-height: 400px;
+}
+
+.promotion-img-3 {
+    width: 100%;
+    height: 400px;
+    position: inherit;
+}
+
+.testimonial-3 {
+    margin-bottom: 40px;
+}
+
+.promotion-text-3 {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+/* about page */
+
+.page-title-area {
+    padding: 100px 0;
+}
+
+.page-title h1 {
+    font-size:40px;
+}
+
+/* blog-details page */
+
+.blog-post .blog-item-content h3 a {
+    font-size: 23px;
+    line-height: 1.2;
+}
+
+.blockquote {
+    margin-left: 0;
+}
+
+.blog-post-tag > a {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.comments-box {
+    display: inline-block;
+}
+
+.comments-avatar {
+    float: none;
+}
+
+.post-comments-form {
+    padding: 0;
+}
+
+.comments-text {
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.comments-reply {
+    padding-left: 0;
+}
+
+.blog-space {
+    padding-right: 15px;
+}
+
+/* career page */
+.job-list {
+    padding: 30px 30px 20px;
+    margin-bottom: 30px;
+}
+
+.why-choose {
+    padding: 0;
+}
+
+.why-choose h2 {
+    font-size: 23px;
+}
+
+/* cart page */
+
+.cart-table {
+    overflow-y: hidden;
+}
+
+.coupon-left input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.update-cart > a {
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+.coupon-left button {
+    margin-left: 0;
+}
+
+.coupon-left {
+    margin-bottom: 5px;
+}
+
+/* contact page */
+
+.contact-form {
+    margin-bottom: 40px;
+}
+
+/* portfolio-details */
+
+.project-status {
+    padding: 30px;
+}
+
+.product-filter .nice-select {
+    float: left;
+    margin-top: 15px;
+}
+
+/* product-details */
+
+.product-desc h2 {
+    font-size: 30px;
+}
+.review-tab .nav-item {
+    margin-right: 30px;
+}
+
+.product-desc .pro-details-action a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.product-desc .nice-select {
+    height: 52px;
+    margin-left: 7px;
+}
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+}

@@ -1,23 +1,33 @@
 /*
-  Theme Name: Name - Multipurpose HTML Template
-  Author: 
+  Theme Name: Construction - Clean Construction HTML5 Template
+  Author: nilartstudio
   Support: admin@gmail.com
-  Description: Creative  HTML5 template.
+  Description: Construction  HTML5 Bootstrap template.
   Version: 1.0
 */
 
 /* CSS Index 
 -----------------------------------
 1. Theme default css
-2. header
-3. slider
-4. about-area
-5. features-box
-6. department
-7. team
-8. video-area
-9. counter
-10. footer 
+2. Header
+3. slider area
+4. features-area
+5. promotion-area
+6. portfolio-area
+7. counter-area
+8. latest blog
+9. blog style
+10. blog sidebar
+11. testimonial-wrapper
+12. footer
+13. team area
+14. our mission
+15. service area
+16. contact page
+17. career page
+18. shop
+19. product-details
+20. cart  
 */
 
 
@@ -240,7 +250,7 @@ label {
     margin-right: 10px;
 }
 
-/* ===== Header Top CSS ==== */
+/* 2. Header */
 
 .header-top-area {
     border-bottom: 1px solid #fbba42;
@@ -484,7 +494,7 @@ label {
     z-index:0;
 }
 
-/* ===== Index-2 CSS ==== */
+/* ===== Header 2 ==== */
 
 header.transparent-header {
     position: absolute;
@@ -521,7 +531,7 @@ header.transparent-header {
     background: #e0af4c;
 }
 
-/* header-3 */
+/* ===== Header 3 ==== */
 
 .header-left-bar {
     margin-top: 0;
@@ -536,7 +546,7 @@ header.transparent-header {
     text-align: center;
 }
 
-/* ===== slider-area CSS ==== */
+/* 3. slider area */
 
 .single-slider.slider-height {
     min-height: 850px;
@@ -603,7 +613,7 @@ header.transparent-header {
     border-radius: 30px;
 }
 
-/* ===== features-area CSS ==== */
+/* 4. features-area */
 
 .features-title h2 {
     font-size: 48px;
@@ -632,7 +642,7 @@ header.transparent-header {
     margin:0;
 }
 
-/* ===== promotion-area CSS ==== */
+/* 5. promotion-area  */
 
 .promotion-area {
     position: relative;
@@ -675,7 +685,7 @@ header.transparent-header {
     width:100%;
 }
 
-/* ===== portfolio-area CSS ==== */
+/* 6. portfolio-area */
 
 .portfolio-wrapper {
     position: relative;
@@ -847,7 +857,7 @@ header.transparent-header {
     text-transform: uppercase;
 }
 
-/* ===== counter-area CSS ==== */
+/* 7. counter-area  */
 
 .counter-area {
     background-size:cover;
@@ -884,7 +894,7 @@ header.transparent-header {
     padding-left: 20px;
 }
 
-/* ===== blog-carousel CSS ==== */
+/* 8. latest blog */
 
 .blog-wrapper {
     padding:30px;
@@ -1013,7 +1023,7 @@ header.transparent-header {
     margin-bottom: 30px;
 }
 
-/* ===== blog-style CSS ==== */
+/* 9. blog style */
 
 .blog-thumb > a > img {
     width: 100%;
@@ -1123,7 +1133,7 @@ header.transparent-header {
     padding: 0;
 }
 
-/* blog sidebar */
+/* 10. blog sidebar */
 
 .post-meta {
     margin-bottom: 18px;
@@ -1372,7 +1382,7 @@ header.transparent-header {
     margin-bottom: 25px;
     padding: 15px;
 }
-/* ===== testimonial-wrapper ==== */
+/* 11. testimonial-wrapper */
 
 .testimonial-wrapper {
     border:1px solid #ebebeb;
@@ -1479,7 +1489,7 @@ header.transparent-header {
 }
 
 
-/* ===== footer ==== */
+/* 12. footer */
 
 
 .footer-widget h3 {
@@ -1633,7 +1643,7 @@ header.transparent-header {
     text-align: center;
 }
 
-/* ===== team area ==== */
+/* 13. team area */
 
 .team-info {
     padding-top:33px;
@@ -1747,7 +1757,7 @@ header.transparent-header {
 }
 
 
-/* ===== index-3 accordion ==== */
+/* 14. our mission */
 
 .our-mission .btn-link {
     background:none;
@@ -1836,7 +1846,7 @@ header.transparent-header {
     color: #2f3440;
 }
 
-/* ===== service area ==== */
+/* 15. service area */
 
 .service-box {
     border: 2px solid transparent;
@@ -1875,7 +1885,7 @@ header.transparent-header {
     margin-bottom: 0;
 }
 
-/* ===== contact page ==== */
+/* 16. contact page */
 
 .contact-form {
     padding: 60px 40px;
@@ -1948,7 +1958,7 @@ header.transparent-header {
     margin-bottom: 5px;
 }
 
-/* ===== career page ==== */
+/* 17. career page */
 
 .why-choose {
     padding: 0 20px;
@@ -2029,7 +2039,7 @@ header.transparent-header {
     font-weight: 600;
 }
 
-/* ===== product page ==== */
+/* 18. shop */
 
 .product-img {
     position: relative;
@@ -2091,7 +2101,7 @@ header.transparent-header {
     border: 1px solid #d6d6d6;
 }
 
-/* ===== product-details page ==== */
+/* 19. product-details */
 
 .product-zoom-img .product-tab {
     float: left;
@@ -2259,7 +2269,7 @@ header.transparent-header {
     width: 100%;
 }
 
-/* ===== cart page ==== */
+/* 20. cart */
 
 .cart-table .table-bordered th {
     text-align: center;

@@ -41,6 +41,8 @@
             }
         ]
     });
+  
+  
     
     // blog active
     $('.blog-active').slick({
